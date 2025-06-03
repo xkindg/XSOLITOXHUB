@@ -1,0 +1,2209 @@
+local XSOLITOXHUB = {};
+
+-- StarterGui.newui
+XSOLITOXHUB["1"] = Instance.new("ScreenGui");
+XSOLITOXHUB["1"]["IgnoreGuiInset"] = true;
+XSOLITOXHUB["1"]["DisplayOrder"] = 1;
+XSOLITOXHUB["1"]["ScreenInsets"] = Enum.ScreenInsets.None;
+XSOLITOXHUB["1"]["ClipToDeviceSafeArea"] = false;
+XSOLITOXHUB["1"]["Name"] = [[newui]];
+XSOLITOXHUB["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.newui.mainmage
+XSOLITOXHUB["2"] = Instance.new("ImageLabel", XSOLITOXHUB["1"]);
+XSOLITOXHUB["2"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["2"]["BackgroundColor3"] = Color3.fromRGB(146, 146, 146);
+XSOLITOXHUB["2"]["ImageTransparency"] = 0.4;
+XSOLITOXHUB["2"]["ImageColor3"] = Color3.fromRGB(157, 157, 157);
+XSOLITOXHUB["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["2"]["Image"] = [[rbxassetid://72978449934552]];
+XSOLITOXHUB["2"]["Size"] = UDim2.new(0.63636, 0, 0.6687, 0);
+XSOLITOXHUB["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["2"]["Name"] = [[mainmage]];
+XSOLITOXHUB["2"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- StarterGui.newui.mainmage.main
+XSOLITOXHUB["3"] = Instance.new("Frame", XSOLITOXHUB["2"]);
+XSOLITOXHUB["3"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["3"]["BackgroundColor3"] = Color3.fromRGB(203, 203, 203);
+XSOLITOXHUB["3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["3"]["Size"] = UDim2.new(0.94943, 0, 0.92674, 0);
+XSOLITOXHUB["3"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+XSOLITOXHUB["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["3"]["Name"] = [[main]];
+XSOLITOXHUB["3"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.mainmage.main.UICorner
+XSOLITOXHUB["4"] = Instance.new("UICorner", XSOLITOXHUB["3"]);
+XSOLITOXHUB["4"]["CornerRadius"] = UDim.new(0.05, 0);
+
+
+-- StarterGui.newui.mainmage.main.UIStroke
+XSOLITOXHUB["5"] = Instance.new("UIStroke", XSOLITOXHUB["3"]);
+XSOLITOXHUB["5"]["Enabled"] = false;
+XSOLITOXHUB["5"]["Transparency"] = 0.72;
+XSOLITOXHUB["5"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainbar
+XSOLITOXHUB["6"] = Instance.new("Frame", XSOLITOXHUB["3"]);
+XSOLITOXHUB["6"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["6"]["BackgroundColor3"] = Color3.fromRGB(203, 203, 203);
+XSOLITOXHUB["6"]["Size"] = UDim2.new(1, 0, 0.13439, 0);
+XSOLITOXHUB["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["6"]["Name"] = [[mainbar]];
+XSOLITOXHUB["6"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame
+XSOLITOXHUB["7"] = Instance.new("Frame", XSOLITOXHUB["6"]);
+XSOLITOXHUB["7"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["7"]["BackgroundColor3"] = Color3.fromRGB(107, 107, 107);
+XSOLITOXHUB["7"]["Size"] = UDim2.new(0.9661, 0, 0.64706, 0);
+XSOLITOXHUB["7"]["Position"] = UDim2.new(0.01695, 0, 0.17647, 0);
+XSOLITOXHUB["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["7"]["BackgroundTransparency"] = 0.75;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.UICorner
+XSOLITOXHUB["8"] = Instance.new("UICorner", XSOLITOXHUB["7"]);
+XSOLITOXHUB["8"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.UIListLayout
+XSOLITOXHUB["9"] = Instance.new("UIListLayout", XSOLITOXHUB["7"]);
+XSOLITOXHUB["9"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["9"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["9"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.UIStroke
+XSOLITOXHUB["a"] = Instance.new("UIStroke", XSOLITOXHUB["7"]);
+XSOLITOXHUB["a"]["Enabled"] = false;
+XSOLITOXHUB["a"]["Transparency"] = 0.56;
+XSOLITOXHUB["a"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.Frame
+XSOLITOXHUB["b"] = Instance.new("Frame", XSOLITOXHUB["7"]);
+XSOLITOXHUB["b"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["b"]["Size"] = UDim2.new(0.71429, 0, 1, 0);
+XSOLITOXHUB["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["b"]["LayoutOrder"] = -1;
+XSOLITOXHUB["b"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.Frame.maintitle
+XSOLITOXHUB["c"] = Instance.new("TextLabel", XSOLITOXHUB["b"]);
+XSOLITOXHUB["c"]["TextWrapped"] = true;
+XSOLITOXHUB["c"]["Active"] = true;
+XSOLITOXHUB["c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["c"]["TextScaled"] = true;
+XSOLITOXHUB["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c"]["TextSize"] = 14;
+XSOLITOXHUB["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["c"]["RichText"] = true;
+XSOLITOXHUB["c"]["Size"] = UDim2.new(0.34429, 0, 1, 0);
+XSOLITOXHUB["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["c"]["Text"] = [[ Pshade ultimate]];
+XSOLITOXHUB["c"]["Name"] = [[maintitle]];
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.Frame.UIListLayout
+XSOLITOXHUB["d"] = Instance.new("UIListLayout", XSOLITOXHUB["b"]);
+XSOLITOXHUB["d"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["d"]["VerticalAlignment"] = Enum.VerticalAlignment.Bottom;
+XSOLITOXHUB["d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["d"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.Frame.secondtitle
+XSOLITOXHUB["e"] = Instance.new("TextLabel", XSOLITOXHUB["b"]);
+XSOLITOXHUB["e"]["TextWrapped"] = true;
+XSOLITOXHUB["e"]["Active"] = true;
+XSOLITOXHUB["e"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["e"]["TextTransparency"] = 0.72;
+XSOLITOXHUB["e"]["TextScaled"] = true;
+XSOLITOXHUB["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["e"]["TextSize"] = 14;
+XSOLITOXHUB["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["e"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["e"]["RichText"] = true;
+XSOLITOXHUB["e"]["Size"] = UDim2.new(0.18289, 0, 0.59091, 0);
+XSOLITOXHUB["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["e"]["Text"] = [[patrick shaders]];
+XSOLITOXHUB["e"]["Name"] = [[secondtitle]];
+XSOLITOXHUB["e"]["Position"] = UDim2.new(0.35131, 0, 0.40909, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar
+XSOLITOXHUB["f"] = Instance.new("Frame", XSOLITOXHUB["7"]);
+XSOLITOXHUB["f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["f"]["Size"] = UDim2.new(0.28087, 0, 1, 0);
+XSOLITOXHUB["f"]["Position"] = UDim2.new(0.71913, 0, 0, 0);
+XSOLITOXHUB["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["f"]["Name"] = [[functionbar]];
+XSOLITOXHUB["f"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.UICorner
+XSOLITOXHUB["10"] = Instance.new("UICorner", XSOLITOXHUB["f"]);
+XSOLITOXHUB["10"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.UIStroke
+XSOLITOXHUB["11"] = Instance.new("UIStroke", XSOLITOXHUB["f"]);
+XSOLITOXHUB["11"]["Enabled"] = false;
+XSOLITOXHUB["11"]["Transparency"] = 0.35;
+XSOLITOXHUB["11"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.UIListLayout
+XSOLITOXHUB["12"] = Instance.new("UIListLayout", XSOLITOXHUB["f"]);
+XSOLITOXHUB["12"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
+XSOLITOXHUB["12"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["12"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["12"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.minimize
+XSOLITOXHUB["13"] = Instance.new("ImageButton", XSOLITOXHUB["f"]);
+XSOLITOXHUB["13"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["13"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["13"]["Image"] = [[http://www.roblox.com/asset/?id=6026568240]];
+XSOLITOXHUB["13"]["Size"] = UDim2.new(0.20085, 0, 1, 0);
+XSOLITOXHUB["13"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["13"]["Name"] = [[minimize]];
+XSOLITOXHUB["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["13"]["Position"] = UDim2.new(0.232, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.minimize.UIStroke
+XSOLITOXHUB["14"] = Instance.new("UIStroke", XSOLITOXHUB["13"]);
+XSOLITOXHUB["14"]["Transparency"] = 0.56;
+XSOLITOXHUB["14"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.minimize.UICorner
+XSOLITOXHUB["15"] = Instance.new("UICorner", XSOLITOXHUB["13"]);
+XSOLITOXHUB["15"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.feedback
+XSOLITOXHUB["16"] = Instance.new("ImageButton", XSOLITOXHUB["f"]);
+XSOLITOXHUB["16"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["16"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["16"]["Image"] = [[http://www.roblox.com/asset/?id=6023426957]];
+XSOLITOXHUB["16"]["Size"] = UDim2.new(0.22973, 0, 1, 0);
+XSOLITOXHUB["16"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["16"]["Name"] = [[feedback]];
+XSOLITOXHUB["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["16"]["Position"] = UDim2.new(0.4507, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.feedback.UICorner
+XSOLITOXHUB["17"] = Instance.new("UICorner", XSOLITOXHUB["16"]);
+XSOLITOXHUB["17"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.feedback.UIStroke
+XSOLITOXHUB["18"] = Instance.new("UIStroke", XSOLITOXHUB["16"]);
+XSOLITOXHUB["18"]["Transparency"] = 0.52;
+XSOLITOXHUB["18"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.setting
+XSOLITOXHUB["19"] = Instance.new("ImageButton", XSOLITOXHUB["f"]);
+XSOLITOXHUB["19"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["19"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["19"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["19"]["Image"] = [[http://www.roblox.com/asset/?id=6031280882]];
+XSOLITOXHUB["19"]["Size"] = UDim2.new(0.21249, 0, 1, 0);
+XSOLITOXHUB["19"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["19"]["Name"] = [[setting]];
+XSOLITOXHUB["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["19"]["Position"] = UDim2.new(0.78751, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.setting.UICorner
+XSOLITOXHUB["1a"] = Instance.new("UICorner", XSOLITOXHUB["19"]);
+XSOLITOXHUB["1a"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainbar.Frame.functionbar.setting.UIStroke
+XSOLITOXHUB["1b"] = Instance.new("UIStroke", XSOLITOXHUB["19"]);
+XSOLITOXHUB["1b"]["Transparency"] = 0.52;
+XSOLITOXHUB["1b"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.UIListLayout
+XSOLITOXHUB["1c"] = Instance.new("UIListLayout", XSOLITOXHUB["3"]);
+XSOLITOXHUB["1c"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["1c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage
+XSOLITOXHUB["1d"] = Instance.new("Frame", XSOLITOXHUB["3"]);
+XSOLITOXHUB["1d"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["1d"]["Size"] = UDim2.new(1, 0, 0.71937, 0);
+XSOLITOXHUB["1d"]["Position"] = UDim2.new(-0, 0, 0.14229, 0);
+XSOLITOXHUB["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["1d"]["Name"] = [[mainpage]];
+XSOLITOXHUB["1d"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.UICorner
+XSOLITOXHUB["1e"] = Instance.new("UICorner", XSOLITOXHUB["1d"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.UIListLayout
+XSOLITOXHUB["1f"] = Instance.new("UIListLayout", XSOLITOXHUB["1d"]);
+XSOLITOXHUB["1f"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["1f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["1f"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage
+XSOLITOXHUB["20"] = Instance.new("Frame", XSOLITOXHUB["1d"]);
+XSOLITOXHUB["20"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["20"]["BackgroundColor3"] = Color3.fromRGB(162, 162, 162);
+XSOLITOXHUB["20"]["ClipsDescendants"] = true;
+XSOLITOXHUB["20"]["Size"] = UDim2.new(0.7128, 0, 0.99425, 0);
+XSOLITOXHUB["20"]["Position"] = UDim2.new(0.27845, 0, 0, 0);
+XSOLITOXHUB["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["20"]["Name"] = [[showpage]];
+XSOLITOXHUB["20"]["LayoutOrder"] = 1;
+XSOLITOXHUB["20"]["BackgroundTransparency"] = 0.8;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.UICorner
+XSOLITOXHUB["21"] = Instance.new("UICorner", XSOLITOXHUB["20"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.UIStroke
+XSOLITOXHUB["22"] = Instance.new("UIStroke", XSOLITOXHUB["20"]);
+XSOLITOXHUB["22"]["Enabled"] = false;
+XSOLITOXHUB["22"]["Transparency"] = 0.84;
+XSOLITOXHUB["22"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.UIListLayout
+XSOLITOXHUB["23"] = Instance.new("UIListLayout", XSOLITOXHUB["20"]);
+XSOLITOXHUB["23"]["Padding"] = UDim.new(0, 5);
+XSOLITOXHUB["23"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample
+XSOLITOXHUB["24"] = Instance.new("Frame", XSOLITOXHUB["20"]);
+XSOLITOXHUB["24"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["24"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["24"]["Size"] = UDim2.new(1, 0, 1, 0);
+XSOLITOXHUB["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["24"]["Name"] = [[sample]];
+XSOLITOXHUB["24"]["LayoutOrder"] = 1;
+XSOLITOXHUB["24"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.UIListLayout
+XSOLITOXHUB["25"] = Instance.new("UIListLayout", XSOLITOXHUB["24"]);
+XSOLITOXHUB["25"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["25"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.searchframe
+XSOLITOXHUB["26"] = Instance.new("Frame", XSOLITOXHUB["24"]);
+XSOLITOXHUB["26"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["26"]["BackgroundColor3"] = Color3.fromRGB(222, 222, 222);
+XSOLITOXHUB["26"]["Size"] = UDim2.new(1, 0, 0.10983, 0);
+XSOLITOXHUB["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["26"]["Name"] = [[searchframe]];
+XSOLITOXHUB["26"]["BackgroundTransparency"] = 0.8;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.searchframe.UICorner
+XSOLITOXHUB["27"] = Instance.new("UICorner", XSOLITOXHUB["26"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.searchframe.UIStroke
+XSOLITOXHUB["28"] = Instance.new("UIStroke", XSOLITOXHUB["26"]);
+XSOLITOXHUB["28"]["Transparency"] = 0.61;
+XSOLITOXHUB["28"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.searchframe.UIListLayout
+XSOLITOXHUB["29"] = Instance.new("UIListLayout", XSOLITOXHUB["26"]);
+XSOLITOXHUB["29"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["29"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["29"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.searchframe.TextBox
+XSOLITOXHUB["2a"] = Instance.new("TextBox", XSOLITOXHUB["26"]);
+XSOLITOXHUB["2a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["2a"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["2a"]["TextWrapped"] = true;
+XSOLITOXHUB["2a"]["TextSize"] = 14;
+XSOLITOXHUB["2a"]["TextScaled"] = true;
+XSOLITOXHUB["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["2a"]["Size"] = UDim2.new(0.91275, 0, 1, 0);
+XSOLITOXHUB["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2a"]["Text"] = [[search]];
+XSOLITOXHUB["2a"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.searchframe.ImageButton
+XSOLITOXHUB["2b"] = Instance.new("ImageButton", XSOLITOXHUB["26"]);
+XSOLITOXHUB["2b"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["2b"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["2b"]["LayoutOrder"] = 1;
+XSOLITOXHUB["2b"]["Image"] = [[http://www.roblox.com/asset/?id=6031154871]];
+XSOLITOXHUB["2b"]["Size"] = UDim2.new(0.08054, 0, 1, 0);
+XSOLITOXHUB["2b"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2b"]["Position"] = UDim2.new(0.91946, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame
+XSOLITOXHUB["2c"] = Instance.new("Frame", XSOLITOXHUB["24"]);
+XSOLITOXHUB["2c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["2c"]["Size"] = UDim2.new(1, 0, 0.79191, 0);
+XSOLITOXHUB["2c"]["Position"] = UDim2.new(0, 0, 0.21965, 0);
+XSOLITOXHUB["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2c"]["LayoutOrder"] = 2;
+XSOLITOXHUB["2c"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc
+XSOLITOXHUB["2d"] = Instance.new("ScrollingFrame", XSOLITOXHUB["2c"]);
+XSOLITOXHUB["2d"]["Active"] = true;
+XSOLITOXHUB["2d"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+XSOLITOXHUB["2d"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["2d"]["Name"] = [[sc]];
+XSOLITOXHUB["2d"]["ScrollBarImageTransparency"] = 0.2;
+XSOLITOXHUB["2d"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+XSOLITOXHUB["2d"]["Size"] = UDim2.new(1, 0, 0.9854, 0);
+XSOLITOXHUB["2d"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2d"]["ScrollBarThickness"] = 3;
+XSOLITOXHUB["2d"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.UIGridLayout
+XSOLITOXHUB["2e"] = Instance.new("UIGridLayout", XSOLITOXHUB["2d"]);
+XSOLITOXHUB["2e"]["CellSize"] = UDim2.new(0.314, 0, 0.65, 0);
+XSOLITOXHUB["2e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["2e"]["CellPadding"] = UDim2.new(0.02, 0, 0.05, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader
+XSOLITOXHUB["2f"] = Instance.new("Frame", XSOLITOXHUB["2d"]);
+XSOLITOXHUB["2f"]["Visible"] = false;
+XSOLITOXHUB["2f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["2f"]["BackgroundColor3"] = Color3.fromRGB(231, 231, 231);
+XSOLITOXHUB["2f"]["Size"] = UDim2.new(0, 100, 0, 100);
+XSOLITOXHUB["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["2f"]["Name"] = [[sampleshader]];
+XSOLITOXHUB["2f"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.UICorner
+XSOLITOXHUB["30"] = Instance.new("UICorner", XSOLITOXHUB["2f"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.UIStroke
+XSOLITOXHUB["31"] = Instance.new("UIStroke", XSOLITOXHUB["2f"]);
+XSOLITOXHUB["31"]["Transparency"] = 0.76;
+XSOLITOXHUB["31"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.UIListLayout
+XSOLITOXHUB["32"] = Instance.new("UIListLayout", XSOLITOXHUB["2f"]);
+XSOLITOXHUB["32"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.title
+XSOLITOXHUB["33"] = Instance.new("TextLabel", XSOLITOXHUB["2f"]);
+XSOLITOXHUB["33"]["TextWrapped"] = true;
+XSOLITOXHUB["33"]["Active"] = true;
+XSOLITOXHUB["33"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["33"]["TextScaled"] = true;
+XSOLITOXHUB["33"]["BackgroundColor3"] = Color3.fromRGB(103, 103, 103);
+XSOLITOXHUB["33"]["TextSize"] = 14;
+XSOLITOXHUB["33"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["33"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["33"]["RichText"] = true;
+XSOLITOXHUB["33"]["Size"] = UDim2.new(1, 0, 0.12536, 0);
+XSOLITOXHUB["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["33"]["Text"] = [[shader sample]];
+XSOLITOXHUB["33"]["Name"] = [[title]];
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.title.UICorner
+XSOLITOXHUB["34"] = Instance.new("UICorner", XSOLITOXHUB["33"]);
+XSOLITOXHUB["34"]["CornerRadius"] = UDim.new(0, 2);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.image
+XSOLITOXHUB["35"] = Instance.new("ImageButton", XSOLITOXHUB["2f"]);
+XSOLITOXHUB["35"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["35"]["ImageTransparency"] = 0.52;
+XSOLITOXHUB["35"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["35"]["Image"] = [[http://www.roblox.com/asset/?id=10141946703]];
+XSOLITOXHUB["35"]["Size"] = UDim2.new(0.99389, 0, 0.8661, 0);
+XSOLITOXHUB["35"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["35"]["Name"] = [[image]];
+XSOLITOXHUB["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["35"]["Position"] = UDim2.new(0, 0, 0.12536, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.Frame.sc.sampleshader.image.UICorner
+XSOLITOXHUB["36"] = Instance.new("UICorner", XSOLITOXHUB["35"]);
+XSOLITOXHUB["36"]["CornerRadius"] = UDim.new(0, 5);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.label
+XSOLITOXHUB["37"] = Instance.new("TextLabel", XSOLITOXHUB["24"]);
+XSOLITOXHUB["37"]["TextWrapped"] = true;
+XSOLITOXHUB["37"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["37"]["TextScaled"] = true;
+XSOLITOXHUB["37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["37"]["TextSize"] = 14;
+XSOLITOXHUB["37"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["37"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["37"]["BackgroundTransparency"] = 0.75;
+XSOLITOXHUB["37"]["RichText"] = true;
+XSOLITOXHUB["37"]["Size"] = UDim2.new(1, 0, 0.08671, 0);
+XSOLITOXHUB["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["37"]["Text"] = [[sample label]];
+XSOLITOXHUB["37"]["LayoutOrder"] = 1;
+XSOLITOXHUB["37"]["Name"] = [[label]];
+XSOLITOXHUB["37"]["Position"] = UDim2.new(0, 0, 0.12139, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.label.UICorner
+XSOLITOXHUB["38"] = Instance.new("UICorner", XSOLITOXHUB["37"]);
+XSOLITOXHUB["38"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.sample.label.UIStroke
+XSOLITOXHUB["39"] = Instance.new("UIStroke", XSOLITOXHUB["37"]);
+XSOLITOXHUB["39"]["Transparency"] = 0.24;
+XSOLITOXHUB["39"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+XSOLITOXHUB["39"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home
+XSOLITOXHUB["3a"] = Instance.new("Frame", XSOLITOXHUB["20"]);
+XSOLITOXHUB["3a"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["3a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["3a"]["Size"] = UDim2.new(1, 0, 1.00578, 0);
+XSOLITOXHUB["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["3a"]["Name"] = [[home]];
+XSOLITOXHUB["3a"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.UIListLayout
+XSOLITOXHUB["3b"] = Instance.new("UIListLayout", XSOLITOXHUB["3a"]);
+XSOLITOXHUB["3b"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["3b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro
+XSOLITOXHUB["3c"] = Instance.new("Frame", XSOLITOXHUB["3a"]);
+XSOLITOXHUB["3c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["3c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["3c"]["Size"] = UDim2.new(1, 0, 0.31609, 0);
+XSOLITOXHUB["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["3c"]["Name"] = [[playerintro]];
+XSOLITOXHUB["3c"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.UICorner
+XSOLITOXHUB["3d"] = Instance.new("UICorner", XSOLITOXHUB["3c"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.UIStroke
+XSOLITOXHUB["3e"] = Instance.new("UIStroke", XSOLITOXHUB["3c"]);
+XSOLITOXHUB["3e"]["Enabled"] = false;
+XSOLITOXHUB["3e"]["Transparency"] = 0.61;
+XSOLITOXHUB["3e"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.playerimage
+XSOLITOXHUB["3f"] = Instance.new("ImageLabel", XSOLITOXHUB["3c"]);
+XSOLITOXHUB["3f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["3f"]["BackgroundColor3"] = Color3.fromRGB(60, 60, 60);
+XSOLITOXHUB["3f"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+XSOLITOXHUB["3f"]["Size"] = UDim2.new(0.19463, 0, 1, 0);
+XSOLITOXHUB["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["3f"]["BackgroundTransparency"] = 0.8;
+XSOLITOXHUB["3f"]["Name"] = [[playerimage]];
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.playerimage.UICorner
+XSOLITOXHUB["40"] = Instance.new("UICorner", XSOLITOXHUB["3f"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.UIListLayout
+XSOLITOXHUB["41"] = Instance.new("UIListLayout", XSOLITOXHUB["3c"]);
+XSOLITOXHUB["41"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["41"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["41"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.Frame
+XSOLITOXHUB["42"] = Instance.new("Frame", XSOLITOXHUB["3c"]);
+XSOLITOXHUB["42"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["42"]["Size"] = UDim2.new(0.79827, 0, 1.02557, 0);
+XSOLITOXHUB["42"]["Position"] = UDim2.new(0.20142, 0, 0, 0);
+XSOLITOXHUB["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["42"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.Frame.title
+XSOLITOXHUB["43"] = Instance.new("TextLabel", XSOLITOXHUB["42"]);
+XSOLITOXHUB["43"]["TextWrapped"] = true;
+XSOLITOXHUB["43"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["43"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["43"]["TextScaled"] = true;
+XSOLITOXHUB["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["43"]["TextSize"] = 14;
+XSOLITOXHUB["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["43"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["43"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["43"]["RichText"] = true;
+XSOLITOXHUB["43"]["Size"] = UDim2.new(0.98164, 0, 0.63497, 0);
+XSOLITOXHUB["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["43"]["Text"] = [[welcome to pshade reborn]];
+XSOLITOXHUB["43"]["LayoutOrder"] = 1;
+XSOLITOXHUB["43"]["Name"] = [[title]];
+XSOLITOXHUB["43"]["Position"] = UDim2.new(0.01845, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.Frame.UIListLayout
+XSOLITOXHUB["44"] = Instance.new("UIListLayout", XSOLITOXHUB["42"]);
+XSOLITOXHUB["44"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["44"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.playerintro.Frame.name
+XSOLITOXHUB["45"] = Instance.new("TextLabel", XSOLITOXHUB["42"]);
+XSOLITOXHUB["45"]["TextWrapped"] = true;
+XSOLITOXHUB["45"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["45"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["45"]["TextTransparency"] = 0.2;
+XSOLITOXHUB["45"]["TextScaled"] = true;
+XSOLITOXHUB["45"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["45"]["TextSize"] = 14;
+XSOLITOXHUB["45"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["45"]["TextColor3"] = Color3.fromRGB(205, 205, 205);
+XSOLITOXHUB["45"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["45"]["RichText"] = true;
+XSOLITOXHUB["45"]["Size"] = UDim2.new(0.79243, 0, 0.156, 0);
+XSOLITOXHUB["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["45"]["Text"] = [[@unkown]];
+XSOLITOXHUB["45"]["LayoutOrder"] = 1;
+XSOLITOXHUB["45"]["Name"] = [[name]];
+XSOLITOXHUB["45"]["Position"] = UDim2.new(0, 0, 0.66886, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player
+XSOLITOXHUB["46"] = Instance.new("Frame", XSOLITOXHUB["3a"]);
+XSOLITOXHUB["46"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["46"]["BackgroundColor3"] = Color3.fromRGB(39, 39, 39);
+XSOLITOXHUB["46"]["Size"] = UDim2.new(1, 0, 0.10953, 0);
+XSOLITOXHUB["46"]["Position"] = UDim2.new(0, 0, 0.32742, 0);
+XSOLITOXHUB["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["46"]["Name"] = [[player]];
+XSOLITOXHUB["46"]["BackgroundTransparency"] = 0.55;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.UICorner
+XSOLITOXHUB["47"] = Instance.new("UICorner", XSOLITOXHUB["46"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.UIStroke
+XSOLITOXHUB["48"] = Instance.new("UIStroke", XSOLITOXHUB["46"]);
+XSOLITOXHUB["48"]["Transparency"] = 0.61;
+XSOLITOXHUB["48"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.UIListLayout
+XSOLITOXHUB["49"] = Instance.new("UIListLayout", XSOLITOXHUB["46"]);
+XSOLITOXHUB["49"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["49"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["49"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.patrickicon
+XSOLITOXHUB["4a"] = Instance.new("ImageLabel", XSOLITOXHUB["46"]);
+XSOLITOXHUB["4a"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["4a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["4a"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["4a"]["Image"] = [[rbxassetid://76177268606293]];
+XSOLITOXHUB["4a"]["Size"] = UDim2.new(0.08054, 0, 1, 0);
+XSOLITOXHUB["4a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["4a"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["4a"]["Name"] = [[patrickicon]];
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.patrickicon.UICorner
+XSOLITOXHUB["4b"] = Instance.new("UICorner", XSOLITOXHUB["4a"]);
+XSOLITOXHUB["4b"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.TextLabel
+XSOLITOXHUB["4c"] = Instance.new("TextLabel", XSOLITOXHUB["46"]);
+XSOLITOXHUB["4c"]["TextWrapped"] = true;
+XSOLITOXHUB["4c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["4c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["4c"]["TextScaled"] = true;
+XSOLITOXHUB["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["4c"]["TextSize"] = 14;
+XSOLITOXHUB["4c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["4c"]["TextColor3"] = Color3.fromRGB(217, 217, 217);
+XSOLITOXHUB["4c"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["4c"]["Size"] = UDim2.new(0.60067, 0, 1, 0);
+XSOLITOXHUB["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["4c"]["Text"] = [[@Im_Patrick]];
+XSOLITOXHUB["4c"]["Position"] = UDim2.new(0.12081, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.TextLabel.UITextSizeConstraint
+XSOLITOXHUB["4d"] = Instance.new("UITextSizeConstraint", XSOLITOXHUB["4c"]);
+XSOLITOXHUB["4d"]["MaxTextSize"] = 14;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.button
+XSOLITOXHUB["4e"] = Instance.new("TextButton", XSOLITOXHUB["46"]);
+XSOLITOXHUB["4e"]["TextWrapped"] = true;
+XSOLITOXHUB["4e"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["4e"]["TextSize"] = 14;
+XSOLITOXHUB["4e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["4e"]["TextScaled"] = true;
+XSOLITOXHUB["4e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["4e"]["RichText"] = true;
+XSOLITOXHUB["4e"]["Size"] = UDim2.new(0.30537, 0, 1, 0);
+XSOLITOXHUB["4e"]["Name"] = [[button]];
+XSOLITOXHUB["4e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["4e"]["Text"] = [[subscribe]];
+XSOLITOXHUB["4e"]["Position"] = UDim2.new(0.69463, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.button.UICorner
+XSOLITOXHUB["4f"] = Instance.new("UICorner", XSOLITOXHUB["4e"]);
+XSOLITOXHUB["4f"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.button.UIGradient
+XSOLITOXHUB["50"] = Instance.new("UIGradient", XSOLITOXHUB["4e"]);
+XSOLITOXHUB["50"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(32, 32, 32)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(81, 81, 81))};
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.player.button.TextLabel
+XSOLITOXHUB["51"] = Instance.new("TextLabel", XSOLITOXHUB["4e"]);
+XSOLITOXHUB["51"]["TextWrapped"] = true;
+XSOLITOXHUB["51"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["51"]["TextScaled"] = true;
+XSOLITOXHUB["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["51"]["TextSize"] = 14;
+XSOLITOXHUB["51"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["51"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["51"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["51"]["RichText"] = true;
+XSOLITOXHUB["51"]["Size"] = UDim2.new(0.84615, 0, 0.73913, 0);
+XSOLITOXHUB["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["51"]["Text"] = [[subscribe]];
+XSOLITOXHUB["51"]["Position"] = UDim2.new(0.07692, 0, 0.13043, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.TextLabel
+XSOLITOXHUB["52"] = Instance.new("TextLabel", XSOLITOXHUB["3a"]);
+XSOLITOXHUB["52"]["TextWrapped"] = true;
+XSOLITOXHUB["52"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["52"]["TextScaled"] = true;
+XSOLITOXHUB["52"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["52"]["TextSize"] = 14;
+XSOLITOXHUB["52"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["52"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["52"]["BackgroundTransparency"] = 0.8;
+XSOLITOXHUB["52"]["RichText"] = true;
+XSOLITOXHUB["52"]["Size"] = UDim2.new(1, 0, 0.07471, 0);
+XSOLITOXHUB["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["52"]["Text"] = [[changelogs]];
+XSOLITOXHUB["52"]["Position"] = UDim2.new(0, 0, 0.47126, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.ScrollingFrame
+XSOLITOXHUB["53"] = Instance.new("ScrollingFrame", XSOLITOXHUB["3a"]);
+XSOLITOXHUB["53"]["Active"] = true;
+XSOLITOXHUB["53"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+XSOLITOXHUB["53"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["53"]["ScrollBarImageTransparency"] = 0.48;
+XSOLITOXHUB["53"]["Size"] = UDim2.new(1, 0, 0.43678, 0);
+XSOLITOXHUB["53"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["53"]["Position"] = UDim2.new(0, 0, 0.55747, 0);
+XSOLITOXHUB["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["53"]["ScrollBarThickness"] = 2;
+XSOLITOXHUB["53"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.ScrollingFrame.changelog
+XSOLITOXHUB["54"] = Instance.new("TextLabel", XSOLITOXHUB["53"]);
+XSOLITOXHUB["54"]["TextWrapped"] = true;
+XSOLITOXHUB["54"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["54"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["54"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+XSOLITOXHUB["54"]["TextScaled"] = true;
+XSOLITOXHUB["54"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["54"]["TextSize"] = 17;
+XSOLITOXHUB["54"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["54"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["54"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["54"]["Size"] = UDim2.new(1, 0, 1, 0);
+XSOLITOXHUB["54"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["54"]["Text"] = [[> update ui]];
+XSOLITOXHUB["54"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+XSOLITOXHUB["54"]["Name"] = [[changelog]];
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.home.ScrollingFrame.changelog.UITextSizeConstraint
+XSOLITOXHUB["55"] = Instance.new("UITextSizeConstraint", XSOLITOXHUB["54"]);
+XSOLITOXHUB["55"]["MaxTextSize"] = 17;
+XSOLITOXHUB["55"]["MinTextSize"] = 17;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample
+XSOLITOXHUB["56"] = Instance.new("Frame", XSOLITOXHUB["20"]);
+XSOLITOXHUB["56"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["56"]["Size"] = UDim2.new(1, 0, 0.9711, 0);
+XSOLITOXHUB["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["56"]["Name"] = [[additionsample]];
+XSOLITOXHUB["56"]["LayoutOrder"] = 1;
+XSOLITOXHUB["56"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.UIListLayout
+XSOLITOXHUB["57"] = Instance.new("UIListLayout", XSOLITOXHUB["56"]);
+XSOLITOXHUB["57"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["57"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.searchframe
+XSOLITOXHUB["58"] = Instance.new("Frame", XSOLITOXHUB["56"]);
+XSOLITOXHUB["58"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["58"]["BackgroundColor3"] = Color3.fromRGB(222, 222, 222);
+XSOLITOXHUB["58"]["Size"] = UDim2.new(1, 0, 0.10983, 0);
+XSOLITOXHUB["58"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["58"]["Name"] = [[searchframe]];
+XSOLITOXHUB["58"]["BackgroundTransparency"] = 0.8;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.searchframe.UICorner
+XSOLITOXHUB["59"] = Instance.new("UICorner", XSOLITOXHUB["58"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.searchframe.UIStroke
+XSOLITOXHUB["5a"] = Instance.new("UIStroke", XSOLITOXHUB["58"]);
+XSOLITOXHUB["5a"]["Transparency"] = 0.61;
+XSOLITOXHUB["5a"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.searchframe.UIListLayout
+XSOLITOXHUB["5b"] = Instance.new("UIListLayout", XSOLITOXHUB["58"]);
+XSOLITOXHUB["5b"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["5b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["5b"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.searchframe.TextBox
+XSOLITOXHUB["5c"] = Instance.new("TextBox", XSOLITOXHUB["58"]);
+XSOLITOXHUB["5c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["5c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["5c"]["TextWrapped"] = true;
+XSOLITOXHUB["5c"]["TextSize"] = 14;
+XSOLITOXHUB["5c"]["TextScaled"] = true;
+XSOLITOXHUB["5c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["5c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["5c"]["Size"] = UDim2.new(0.91275, 0, 1, 0);
+XSOLITOXHUB["5c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["5c"]["Text"] = [[search]];
+XSOLITOXHUB["5c"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.searchframe.ImageButton
+XSOLITOXHUB["5d"] = Instance.new("ImageButton", XSOLITOXHUB["58"]);
+XSOLITOXHUB["5d"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["5d"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["5d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["5d"]["LayoutOrder"] = 1;
+XSOLITOXHUB["5d"]["Image"] = [[http://www.roblox.com/asset/?id=6031154871]];
+XSOLITOXHUB["5d"]["Size"] = UDim2.new(0.08054, 0, 1, 0);
+XSOLITOXHUB["5d"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["5d"]["Position"] = UDim2.new(0.91946, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.Frame
+XSOLITOXHUB["5e"] = Instance.new("Frame", XSOLITOXHUB["56"]);
+XSOLITOXHUB["5e"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["5e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["5e"]["Size"] = UDim2.new(1, 0, 0.90803, 0);
+XSOLITOXHUB["5e"]["Position"] = UDim2.new(0, 0, 0.12173, 0);
+XSOLITOXHUB["5e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["5e"]["LayoutOrder"] = 2;
+XSOLITOXHUB["5e"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.Frame.sc
+XSOLITOXHUB["5f"] = Instance.new("ScrollingFrame", XSOLITOXHUB["5e"]);
+XSOLITOXHUB["5f"]["Active"] = true;
+XSOLITOXHUB["5f"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+XSOLITOXHUB["5f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["5f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["5f"]["Name"] = [[sc]];
+XSOLITOXHUB["5f"]["ScrollBarImageTransparency"] = 0.2;
+XSOLITOXHUB["5f"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+XSOLITOXHUB["5f"]["Size"] = UDim2.new(1, 0, 0.9854, 0);
+XSOLITOXHUB["5f"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["5f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["5f"]["ScrollBarThickness"] = 3;
+XSOLITOXHUB["5f"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.additionsample.Frame.sc.UIListLayout
+XSOLITOXHUB["60"] = Instance.new("UIListLayout", XSOLITOXHUB["5f"]);
+XSOLITOXHUB["60"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["60"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings
+XSOLITOXHUB["61"] = Instance.new("Frame", XSOLITOXHUB["20"]);
+XSOLITOXHUB["61"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["61"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["61"]["Size"] = UDim2.new(1, 0, 0.9711, 0);
+XSOLITOXHUB["61"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["61"]["Name"] = [[settings]];
+XSOLITOXHUB["61"]["LayoutOrder"] = 1;
+XSOLITOXHUB["61"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.UIListLayout
+XSOLITOXHUB["62"] = Instance.new("UIListLayout", XSOLITOXHUB["61"]);
+XSOLITOXHUB["62"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["62"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.searchframe
+XSOLITOXHUB["63"] = Instance.new("Frame", XSOLITOXHUB["61"]);
+XSOLITOXHUB["63"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["63"]["BackgroundColor3"] = Color3.fromRGB(222, 222, 222);
+XSOLITOXHUB["63"]["Size"] = UDim2.new(1, 0, 0.10983, 0);
+XSOLITOXHUB["63"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["63"]["Name"] = [[searchframe]];
+XSOLITOXHUB["63"]["BackgroundTransparency"] = 0.8;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.searchframe.UICorner
+XSOLITOXHUB["64"] = Instance.new("UICorner", XSOLITOXHUB["63"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.searchframe.UIStroke
+XSOLITOXHUB["65"] = Instance.new("UIStroke", XSOLITOXHUB["63"]);
+XSOLITOXHUB["65"]["Transparency"] = 0.61;
+XSOLITOXHUB["65"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.searchframe.UIListLayout
+XSOLITOXHUB["66"] = Instance.new("UIListLayout", XSOLITOXHUB["63"]);
+XSOLITOXHUB["66"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["66"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["66"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.searchframe.TextBox
+XSOLITOXHUB["67"] = Instance.new("TextBox", XSOLITOXHUB["63"]);
+XSOLITOXHUB["67"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["67"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["67"]["TextWrapped"] = true;
+XSOLITOXHUB["67"]["TextSize"] = 14;
+XSOLITOXHUB["67"]["TextScaled"] = true;
+XSOLITOXHUB["67"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["67"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["67"]["Size"] = UDim2.new(0.91275, 0, 1, 0);
+XSOLITOXHUB["67"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["67"]["Text"] = [[search]];
+XSOLITOXHUB["67"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.searchframe.ImageButton
+XSOLITOXHUB["68"] = Instance.new("ImageButton", XSOLITOXHUB["63"]);
+XSOLITOXHUB["68"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["68"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["68"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["68"]["LayoutOrder"] = 1;
+XSOLITOXHUB["68"]["Image"] = [[http://www.roblox.com/asset/?id=6031154871]];
+XSOLITOXHUB["68"]["Size"] = UDim2.new(0.08054, 0, 1, 0);
+XSOLITOXHUB["68"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["68"]["Position"] = UDim2.new(0.91946, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.Frame
+XSOLITOXHUB["69"] = Instance.new("Frame", XSOLITOXHUB["61"]);
+XSOLITOXHUB["69"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["69"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["69"]["Size"] = UDim2.new(1, 0, 0.90803, 0);
+XSOLITOXHUB["69"]["Position"] = UDim2.new(0, 0, 0.12173, 0);
+XSOLITOXHUB["69"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["69"]["LayoutOrder"] = 2;
+XSOLITOXHUB["69"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.Frame.sc
+XSOLITOXHUB["6a"] = Instance.new("ScrollingFrame", XSOLITOXHUB["69"]);
+XSOLITOXHUB["6a"]["Active"] = true;
+XSOLITOXHUB["6a"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+XSOLITOXHUB["6a"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["6a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["6a"]["Name"] = [[sc]];
+XSOLITOXHUB["6a"]["ScrollBarImageTransparency"] = 0.2;
+XSOLITOXHUB["6a"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+XSOLITOXHUB["6a"]["Size"] = UDim2.new(1, 0, 0.9854, 0);
+XSOLITOXHUB["6a"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["6a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["6a"]["ScrollBarThickness"] = 3;
+XSOLITOXHUB["6a"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.settings.Frame.sc.UIListLayout
+XSOLITOXHUB["6b"] = Instance.new("UIListLayout", XSOLITOXHUB["6a"]);
+XSOLITOXHUB["6b"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["6b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback
+XSOLITOXHUB["6c"] = Instance.new("Frame", XSOLITOXHUB["20"]);
+XSOLITOXHUB["6c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["6c"]["Size"] = UDim2.new(1, 0, 1.01734, 0);
+XSOLITOXHUB["6c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["6c"]["Name"] = [[feedback]];
+XSOLITOXHUB["6c"]["LayoutOrder"] = 2;
+XSOLITOXHUB["6c"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.UIListLayout
+XSOLITOXHUB["6d"] = Instance.new("UIListLayout", XSOLITOXHUB["6c"]);
+XSOLITOXHUB["6d"]["Padding"] = UDim.new(0, 1);
+XSOLITOXHUB["6d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.label
+XSOLITOXHUB["6e"] = Instance.new("TextLabel", XSOLITOXHUB["6c"]);
+XSOLITOXHUB["6e"]["TextWrapped"] = true;
+XSOLITOXHUB["6e"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["6e"]["TextScaled"] = true;
+XSOLITOXHUB["6e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["6e"]["TextSize"] = 14;
+XSOLITOXHUB["6e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["6e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["6e"]["BackgroundTransparency"] = 0.6;
+XSOLITOXHUB["6e"]["RichText"] = true;
+XSOLITOXHUB["6e"]["Size"] = UDim2.new(1, 0, 0.07568, 0);
+XSOLITOXHUB["6e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["6e"]["Text"] = [[Feedback]];
+XSOLITOXHUB["6e"]["Name"] = [[label]];
+XSOLITOXHUB["6e"]["Position"] = UDim2.new(0, 0, 0.71983, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.label.UIStroke
+XSOLITOXHUB["6f"] = Instance.new("UIStroke", XSOLITOXHUB["6e"]);
+XSOLITOXHUB["6f"]["Transparency"] = 0.61;
+XSOLITOXHUB["6f"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.label.UICorner
+XSOLITOXHUB["70"] = Instance.new("UICorner", XSOLITOXHUB["6e"]);
+XSOLITOXHUB["70"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.TextBox
+XSOLITOXHUB["71"] = Instance.new("TextBox", XSOLITOXHUB["6c"]);
+XSOLITOXHUB["71"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["71"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["71"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["71"]["TextWrapped"] = true;
+XSOLITOXHUB["71"]["TextSize"] = 14;
+XSOLITOXHUB["71"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+XSOLITOXHUB["71"]["TextScaled"] = true;
+XSOLITOXHUB["71"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["71"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["71"]["RichText"] = true;
+XSOLITOXHUB["71"]["Size"] = UDim2.new(1, 0, 0.72159, 0);
+XSOLITOXHUB["71"]["Position"] = UDim2.new(0, 0, 0.08136, 0);
+XSOLITOXHUB["71"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["71"]["Text"] = [[]];
+XSOLITOXHUB["71"]["BackgroundTransparency"] = 0.5;
+XSOLITOXHUB["71"]["PlaceholderText"] = [[provide feedback with good and clear language and please only provide feedback that is only related to pshade ultimate from https://randomstring0.github.io/pshade.github.io/ and not other scripts because other scripts or fake version are not made by us and have no relation whatsoever to pshade]];
+XSOLITOXHUB["71"]["PlaceholderColor3"] = Color3.fromRGB(25,25,25);
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.TextBox.UICorner
+XSOLITOXHUB["72"] = Instance.new("UICorner", XSOLITOXHUB["71"]);
+XSOLITOXHUB["72"]["CornerRadius"] = UDim.new(0.05, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.TextBox.UITextSizeConstraint
+XSOLITOXHUB["73"] = Instance.new("UITextSizeConstraint", XSOLITOXHUB["71"]);
+XSOLITOXHUB["73"]["MaxTextSize"] = 15;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.send
+XSOLITOXHUB["74"] = Instance.new("ImageButton", XSOLITOXHUB["6c"]);
+XSOLITOXHUB["74"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["74"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["74"]["BackgroundColor3"] = Color3.fromRGB(47, 233, 0);
+XSOLITOXHUB["74"]["Image"] = [[http://www.roblox.com/asset/?id=6035067832]];
+XSOLITOXHUB["74"]["Size"] = UDim2.new(1, 0, 0.1875, 0);
+XSOLITOXHUB["74"]["BackgroundTransparency"] = 0.2;
+XSOLITOXHUB["74"]["Name"] = [[send]];
+XSOLITOXHUB["74"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["74"]["Position"] = UDim2.new(0, 0, 0.80863, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.showpage.feedback.send.UICorner
+XSOLITOXHUB["75"] = Instance.new("UICorner", XSOLITOXHUB["74"]);
+XSOLITOXHUB["75"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page
+XSOLITOXHUB["76"] = Instance.new("Frame", XSOLITOXHUB["1d"]);
+XSOLITOXHUB["76"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["76"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["76"]["Size"] = UDim2.new(0.27361, 0, 0.99425, 0);
+XSOLITOXHUB["76"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["76"]["Name"] = [[page]];
+XSOLITOXHUB["76"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame
+XSOLITOXHUB["77"] = Instance.new("Frame", XSOLITOXHUB["76"]);
+XSOLITOXHUB["77"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["77"]["BackgroundColor3"] = Color3.fromRGB(162, 162, 162);
+XSOLITOXHUB["77"]["Size"] = UDim2.new(0.926, 0, 0.99473, 0);
+XSOLITOXHUB["77"]["Position"] = UDim2.new(0.06195, 0, 0, 0);
+XSOLITOXHUB["77"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["77"]["BackgroundTransparency"] = 0.85;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.UICorner
+XSOLITOXHUB["78"] = Instance.new("UICorner", XSOLITOXHUB["77"]);
+
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.UIListLayout
+XSOLITOXHUB["79"] = Instance.new("UIListLayout", XSOLITOXHUB["77"]);
+XSOLITOXHUB["79"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["79"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.UIStroke
+XSOLITOXHUB["7a"] = Instance.new("UIStroke", XSOLITOXHUB["77"]);
+XSOLITOXHUB["7a"]["Enabled"] = false;
+XSOLITOXHUB["7a"]["Transparency"] = 0.72;
+XSOLITOXHUB["7a"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc
+XSOLITOXHUB["7b"] = Instance.new("ScrollingFrame", XSOLITOXHUB["77"]);
+XSOLITOXHUB["7b"]["Active"] = true;
+XSOLITOXHUB["7b"]["ScrollingDirection"] = Enum.ScrollingDirection.Y;
+XSOLITOXHUB["7b"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["7b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["7b"]["Name"] = [[sc]];
+XSOLITOXHUB["7b"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+XSOLITOXHUB["7b"]["Size"] = UDim2.new(0.99115, 0, 1.00578, 0);
+XSOLITOXHUB["7b"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["7b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["7b"]["ScrollBarThickness"] = 2;
+XSOLITOXHUB["7b"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.UIListLayout
+XSOLITOXHUB["7c"] = Instance.new("UIListLayout", XSOLITOXHUB["7b"]);
+XSOLITOXHUB["7c"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["7c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.home
+XSOLITOXHUB["7d"] = Instance.new("Frame", XSOLITOXHUB["7b"]);
+XSOLITOXHUB["7d"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["7d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["7d"]["Size"] = UDim2.new(1, 0, 0.1, 0);
+XSOLITOXHUB["7d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["7d"]["Name"] = [[home]];
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.home.UICorner
+XSOLITOXHUB["7e"] = Instance.new("UICorner", XSOLITOXHUB["7d"]);
+XSOLITOXHUB["7e"]["CornerRadius"] = UDim.new(0.25, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.home.TextButton
+XSOLITOXHUB["7f"] = Instance.new("TextButton", XSOLITOXHUB["7d"]);
+XSOLITOXHUB["7f"]["TextWrapped"] = true;
+XSOLITOXHUB["7f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["7f"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["7f"]["TextSize"] = 14;
+XSOLITOXHUB["7f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["7f"]["TextScaled"] = true;
+XSOLITOXHUB["7f"]["BackgroundColor3"] = Color3.fromRGB(172, 172, 172);
+XSOLITOXHUB["7f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["7f"]["RichText"] = true;
+XSOLITOXHUB["7f"]["Size"] = UDim2.new(1, 0, 1, 0);
+XSOLITOXHUB["7f"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["7f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["7f"]["Text"] = [[home]];
+XSOLITOXHUB["7f"]["Position"] = UDim2.new(0.0625, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.home.UIStroke
+XSOLITOXHUB["80"] = Instance.new("UIStroke", XSOLITOXHUB["7d"]);
+XSOLITOXHUB["80"]["Enabled"] = false;
+XSOLITOXHUB["80"]["Transparency"] = 0.61;
+XSOLITOXHUB["80"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.home.UIGradient
+XSOLITOXHUB["81"] = Instance.new("UIGradient", XSOLITOXHUB["7d"]);
+XSOLITOXHUB["81"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(123, 123, 123))};
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.sample
+XSOLITOXHUB["82"] = Instance.new("Frame", XSOLITOXHUB["7b"]);
+XSOLITOXHUB["82"]["Visible"] = false;
+XSOLITOXHUB["82"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["82"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["82"]["Size"] = UDim2.new(1, 0, 0.1, 0);
+XSOLITOXHUB["82"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["82"]["Name"] = [[sample]];
+XSOLITOXHUB["82"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.sample.TextButton
+XSOLITOXHUB["83"] = Instance.new("TextButton", XSOLITOXHUB["82"]);
+XSOLITOXHUB["83"]["TextWrapped"] = true;
+XSOLITOXHUB["83"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["83"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["83"]["TextSize"] = 14;
+XSOLITOXHUB["83"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["83"]["TextScaled"] = true;
+XSOLITOXHUB["83"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["83"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["83"]["RichText"] = true;
+XSOLITOXHUB["83"]["Size"] = UDim2.new(1, 0, 1, 0);
+XSOLITOXHUB["83"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["83"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["83"]["Text"] = [[sample]];
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.sample.UIStroke
+XSOLITOXHUB["84"] = Instance.new("UIStroke", XSOLITOXHUB["82"]);
+XSOLITOXHUB["84"]["Enabled"] = false;
+XSOLITOXHUB["84"]["Transparency"] = 0.61;
+XSOLITOXHUB["84"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.sample.UICorner
+XSOLITOXHUB["85"] = Instance.new("UICorner", XSOLITOXHUB["82"]);
+XSOLITOXHUB["85"]["CornerRadius"] = UDim.new(0.25, 0);
+
+
+-- StarterGui.newui.mainmage.main.mainpage.page.Frame.sc.sample.UIGradient
+XSOLITOXHUB["86"] = Instance.new("UIGradient", XSOLITOXHUB["82"]);
+XSOLITOXHUB["86"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(123, 123, 123))};
+
+
+-- StarterGui.newui.mainmage.main.addtionframe
+XSOLITOXHUB["87"] = Instance.new("Frame", XSOLITOXHUB["3"]);
+XSOLITOXHUB["87"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["87"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["87"]["Size"] = UDim2.new(1, 0, 0.13043, 0);
+XSOLITOXHUB["87"]["Position"] = UDim2.new(-0, 0, 0.83794, 0);
+XSOLITOXHUB["87"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["87"]["Name"] = [[addtionframe]];
+XSOLITOXHUB["87"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame
+XSOLITOXHUB["88"] = Instance.new("Frame", XSOLITOXHUB["87"]);
+XSOLITOXHUB["88"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["88"]["BackgroundColor3"] = Color3.fromRGB(136, 136, 136);
+XSOLITOXHUB["88"]["Size"] = UDim2.new(0.9661, 0, 0.63636, 0);
+XSOLITOXHUB["88"]["Position"] = UDim2.new(0.01695, 0, 0.09091, 0);
+XSOLITOXHUB["88"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["88"]["BackgroundTransparency"] = 0.75;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.UICorner
+XSOLITOXHUB["89"] = Instance.new("UICorner", XSOLITOXHUB["88"]);
+XSOLITOXHUB["89"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.UIListLayout
+XSOLITOXHUB["8a"] = Instance.new("UIListLayout", XSOLITOXHUB["88"]);
+XSOLITOXHUB["8a"]["Padding"] = UDim.new(0, 2);
+XSOLITOXHUB["8a"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["8a"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.UIStroke
+XSOLITOXHUB["8b"] = Instance.new("UIStroke", XSOLITOXHUB["88"]);
+XSOLITOXHUB["8b"]["Enabled"] = false;
+XSOLITOXHUB["8b"]["Transparency"] = 0.68;
+XSOLITOXHUB["8b"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.add
+XSOLITOXHUB["8c"] = Instance.new("Frame", XSOLITOXHUB["88"]);
+XSOLITOXHUB["8c"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["8c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["8c"]["Size"] = UDim2.new(0.881, 0, 1.053, 0);
+XSOLITOXHUB["8c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["8c"]["Name"] = [[add]];
+XSOLITOXHUB["8c"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.add.sc
+XSOLITOXHUB["8d"] = Instance.new("ScrollingFrame", XSOLITOXHUB["8c"]);
+XSOLITOXHUB["8d"]["Active"] = true;
+XSOLITOXHUB["8d"]["ScrollingDirection"] = Enum.ScrollingDirection.X;
+XSOLITOXHUB["8d"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["8d"]["CanvasSize"] = UDim2.new(2.1, 0, 0, 0);
+XSOLITOXHUB["8d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["8d"]["Name"] = [[sc]];
+XSOLITOXHUB["8d"]["ScrollBarImageTransparency"] = 0.64;
+XSOLITOXHUB["8d"]["AutomaticCanvasSize"] = Enum.AutomaticSize.X;
+XSOLITOXHUB["8d"]["Size"] = UDim2.new(0.98662, 0, 1.05128, 0);
+XSOLITOXHUB["8d"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["8d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["8d"]["ScrollBarThickness"] = 3;
+XSOLITOXHUB["8d"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.add.sc.UIListLayout
+XSOLITOXHUB["8e"] = Instance.new("UIListLayout", XSOLITOXHUB["8d"]);
+XSOLITOXHUB["8e"]["Padding"] = UDim.new(0, 5);
+XSOLITOXHUB["8e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["8e"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.add.sc.sample
+XSOLITOXHUB["8f"] = Instance.new("TextButton", XSOLITOXHUB["8d"]);
+XSOLITOXHUB["8f"]["TextWrapped"] = true;
+XSOLITOXHUB["8f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["8f"]["TextSize"] = 21;
+XSOLITOXHUB["8f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["8f"]["BackgroundColor3"] = Color3.fromRGB(49, 49, 49);
+XSOLITOXHUB["8f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["8f"]["RichText"] = true;
+XSOLITOXHUB["8f"]["AutomaticSize"] = Enum.AutomaticSize.X;
+XSOLITOXHUB["8f"]["Size"] = UDim2.new(0.2, 0, 1, 0);
+XSOLITOXHUB["8f"]["BackgroundTransparency"] = 0.25;
+XSOLITOXHUB["8f"]["Name"] = [[sample]];
+XSOLITOXHUB["8f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["8f"]["Text"] = [[sample]];
+XSOLITOXHUB["8f"]["Visible"] = false;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.add.sc.sample.UICorner
+XSOLITOXHUB["90"] = Instance.new("UICorner", XSOLITOXHUB["8f"]);
+XSOLITOXHUB["90"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.add.sc.sample.UIStroke
+XSOLITOXHUB["91"] = Instance.new("UIStroke", XSOLITOXHUB["8f"]);
+XSOLITOXHUB["91"]["Transparency"] = 0.58;
+XSOLITOXHUB["91"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+XSOLITOXHUB["91"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.toggleshaderframe
+XSOLITOXHUB["92"] = Instance.new("Frame", XSOLITOXHUB["88"]);
+XSOLITOXHUB["92"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["92"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["92"]["Size"] = UDim2.new(0.11329, 0, 1, 0);
+XSOLITOXHUB["92"]["Position"] = UDim2.new(0.8952, 0, 0, 0);
+XSOLITOXHUB["92"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["92"]["Name"] = [[toggleshaderframe]];
+XSOLITOXHUB["92"]["BackgroundTransparency"] = 0.85;
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.toggleshaderframe.UICorner
+XSOLITOXHUB["93"] = Instance.new("UICorner", XSOLITOXHUB["92"]);
+XSOLITOXHUB["93"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.toggleshaderframe.UIStroke
+XSOLITOXHUB["94"] = Instance.new("UIStroke", XSOLITOXHUB["92"]);
+XSOLITOXHUB["94"]["Transparency"] = 0.35;
+XSOLITOXHUB["94"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.toggleshaderframe.handle
+XSOLITOXHUB["95"] = Instance.new("ImageButton", XSOLITOXHUB["92"]);
+XSOLITOXHUB["95"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["95"]["ImageTransparency"] = 1;
+XSOLITOXHUB["95"]["BackgroundColor3"] = Color3.fromRGB(27, 255, 0);
+XSOLITOXHUB["95"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+XSOLITOXHUB["95"]["Size"] = UDim2.new(0.48214, 0, 1, 0);
+XSOLITOXHUB["95"]["Name"] = [[handle]];
+XSOLITOXHUB["95"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["95"]["Position"] = UDim2.new(0.51786, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.addtionframe.Frame.toggleshaderframe.handle.UICorner
+XSOLITOXHUB["96"] = Instance.new("UICorner", XSOLITOXHUB["95"]);
+XSOLITOXHUB["96"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample
+XSOLITOXHUB["97"] = Instance.new("Folder", XSOLITOXHUB["3"]);
+XSOLITOXHUB["97"]["Name"] = [[propperty sample]];
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box
+XSOLITOXHUB["98"] = Instance.new("Frame", XSOLITOXHUB["97"]);
+XSOLITOXHUB["98"]["Visible"] = false;
+XSOLITOXHUB["98"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["98"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["98"]["Size"] = UDim2.new(1, 0, 0.16, 0);
+XSOLITOXHUB["98"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["98"]["Name"] = [[box]];
+XSOLITOXHUB["98"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.UICorner
+XSOLITOXHUB["99"] = Instance.new("UICorner", XSOLITOXHUB["98"]);
+XSOLITOXHUB["99"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.UIStroke
+XSOLITOXHUB["9a"] = Instance.new("UIStroke", XSOLITOXHUB["98"]);
+XSOLITOXHUB["9a"]["Transparency"] = 0.58;
+XSOLITOXHUB["9a"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.ImageLabel
+XSOLITOXHUB["9b"] = Instance.new("ImageLabel", XSOLITOXHUB["98"]);
+XSOLITOXHUB["9b"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["9b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["9b"]["ScaleType"] = Enum.ScaleType.Crop;
+XSOLITOXHUB["9b"]["Image"] = [[http://www.roblox.com/asset/?id=6034941708]];
+XSOLITOXHUB["9b"]["Size"] = UDim2.new(0.08725, 0, 1, 0);
+XSOLITOXHUB["9b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["9b"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.ImageLabel.UICorner
+XSOLITOXHUB["9c"] = Instance.new("UICorner", XSOLITOXHUB["9b"]);
+XSOLITOXHUB["9c"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.UIListLayout
+XSOLITOXHUB["9d"] = Instance.new("UIListLayout", XSOLITOXHUB["98"]);
+XSOLITOXHUB["9d"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["9d"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["9d"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.TextButton
+XSOLITOXHUB["9e"] = Instance.new("TextButton", XSOLITOXHUB["98"]);
+XSOLITOXHUB["9e"]["TextWrapped"] = true;
+XSOLITOXHUB["9e"]["Interactable"] = false;
+XSOLITOXHUB["9e"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["9e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["9e"]["TextSize"] = 14;
+XSOLITOXHUB["9e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["9e"]["TextScaled"] = true;
+XSOLITOXHUB["9e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["9e"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["9e"]["RichText"] = true;
+XSOLITOXHUB["9e"]["Size"] = UDim2.new(0.87919, 0, 1, 0);
+XSOLITOXHUB["9e"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["9e"]["LayoutOrder"] = 1;
+XSOLITOXHUB["9e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["9e"]["Text"] = [[textbox sample]];
+XSOLITOXHUB["9e"]["Position"] = UDim2.new(0.09732, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.TextBox
+XSOLITOXHUB["9f"] = Instance.new("TextBox", XSOLITOXHUB["98"]);
+XSOLITOXHUB["9f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["9f"]["PlaceholderColor3"] = Color3.fromRGB(86, 86, 86);
+XSOLITOXHUB["9f"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["9f"]["TextWrapped"] = true;
+XSOLITOXHUB["9f"]["TextSize"] = 14;
+XSOLITOXHUB["9f"]["TextScaled"] = true;
+XSOLITOXHUB["9f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["9f"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["9f"]["Size"] = UDim2.new(0.163, 0, 1, 0);
+XSOLITOXHUB["9f"]["Position"] = UDim2.new(0.09732, 0, 0, 0);
+XSOLITOXHUB["9f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["9f"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.TextBox.UICorner
+XSOLITOXHUB["a0"] = Instance.new("UICorner", XSOLITOXHUB["9f"]);
+XSOLITOXHUB["a0"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.box.TextBox.UIStroke
+XSOLITOXHUB["a1"] = Instance.new("UIStroke", XSOLITOXHUB["9f"]);
+XSOLITOXHUB["a1"]["Transparency"] = 0.56;
+XSOLITOXHUB["a1"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+XSOLITOXHUB["a1"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button
+XSOLITOXHUB["a2"] = Instance.new("Frame", XSOLITOXHUB["97"]);
+XSOLITOXHUB["a2"]["Visible"] = false;
+XSOLITOXHUB["a2"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["a2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["a2"]["Size"] = UDim2.new(1, 0, 0.16, 0);
+XSOLITOXHUB["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["a2"]["Name"] = [[button]];
+XSOLITOXHUB["a2"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button.UICorner
+XSOLITOXHUB["a3"] = Instance.new("UICorner", XSOLITOXHUB["a2"]);
+XSOLITOXHUB["a3"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button.UIStroke
+XSOLITOXHUB["a4"] = Instance.new("UIStroke", XSOLITOXHUB["a2"]);
+XSOLITOXHUB["a4"]["Transparency"] = 0.58;
+XSOLITOXHUB["a4"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button.ImageLabel
+XSOLITOXHUB["a5"] = Instance.new("ImageLabel", XSOLITOXHUB["a2"]);
+XSOLITOXHUB["a5"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["a5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["a5"]["ScaleType"] = Enum.ScaleType.Crop;
+XSOLITOXHUB["a5"]["Image"] = [[http://www.roblox.com/asset/?id=6022668955]];
+XSOLITOXHUB["a5"]["Size"] = UDim2.new(0.08725, 0, 1, 0);
+XSOLITOXHUB["a5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["a5"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button.ImageLabel.UICorner
+XSOLITOXHUB["a6"] = Instance.new("UICorner", XSOLITOXHUB["a5"]);
+XSOLITOXHUB["a6"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button.UIListLayout
+XSOLITOXHUB["a7"] = Instance.new("UIListLayout", XSOLITOXHUB["a2"]);
+XSOLITOXHUB["a7"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["a7"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["a7"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.button.TextButton
+XSOLITOXHUB["a8"] = Instance.new("TextButton", XSOLITOXHUB["a2"]);
+XSOLITOXHUB["a8"]["TextWrapped"] = true;
+XSOLITOXHUB["a8"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["a8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["a8"]["TextSize"] = 14;
+XSOLITOXHUB["a8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["a8"]["TextScaled"] = true;
+XSOLITOXHUB["a8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["a8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["a8"]["RichText"] = true;
+XSOLITOXHUB["a8"]["Size"] = UDim2.new(0.87919, 0, 1, 0);
+XSOLITOXHUB["a8"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["a8"]["Text"] = [[sample button]];
+XSOLITOXHUB["a8"]["Position"] = UDim2.new(0.09732, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle
+XSOLITOXHUB["a9"] = Instance.new("Frame", XSOLITOXHUB["97"]);
+XSOLITOXHUB["a9"]["Visible"] = false;
+XSOLITOXHUB["a9"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["a9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["a9"]["Size"] = UDim2.new(1, 0, 0.16, 0);
+XSOLITOXHUB["a9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["a9"]["Name"] = [[toggle]];
+XSOLITOXHUB["a9"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.UICorner
+XSOLITOXHUB["aa"] = Instance.new("UICorner", XSOLITOXHUB["a9"]);
+XSOLITOXHUB["aa"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.UIStroke
+XSOLITOXHUB["ab"] = Instance.new("UIStroke", XSOLITOXHUB["a9"]);
+XSOLITOXHUB["ab"]["Transparency"] = 0.58;
+XSOLITOXHUB["ab"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.ImageLabel
+XSOLITOXHUB["ac"] = Instance.new("ImageLabel", XSOLITOXHUB["a9"]);
+XSOLITOXHUB["ac"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["ac"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["ac"]["ScaleType"] = Enum.ScaleType.Crop;
+XSOLITOXHUB["ac"]["Image"] = [[http://www.roblox.com/asset/?id=6031068430]];
+XSOLITOXHUB["ac"]["Size"] = UDim2.new(0.08725, 0, 1, 0);
+XSOLITOXHUB["ac"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["ac"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.ImageLabel.UICorner
+XSOLITOXHUB["ad"] = Instance.new("UICorner", XSOLITOXHUB["ac"]);
+XSOLITOXHUB["ad"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.UIListLayout
+XSOLITOXHUB["ae"] = Instance.new("UIListLayout", XSOLITOXHUB["a9"]);
+XSOLITOXHUB["ae"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["ae"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["ae"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.TextButton
+XSOLITOXHUB["af"] = Instance.new("TextButton", XSOLITOXHUB["a9"]);
+XSOLITOXHUB["af"]["TextWrapped"] = true;
+XSOLITOXHUB["af"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["af"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["af"]["TextSize"] = 14;
+XSOLITOXHUB["af"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["af"]["TextScaled"] = true;
+XSOLITOXHUB["af"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["af"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["af"]["RichText"] = true;
+XSOLITOXHUB["af"]["Size"] = UDim2.new(0.87919, 0, 1, 0);
+XSOLITOXHUB["af"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["af"]["LayoutOrder"] = 2;
+XSOLITOXHUB["af"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["af"]["Text"] = [[sample toggle]];
+XSOLITOXHUB["af"]["Position"] = UDim2.new(0.09732, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.fhandle
+XSOLITOXHUB["b0"] = Instance.new("Frame", XSOLITOXHUB["a9"]);
+XSOLITOXHUB["b0"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["b0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["b0"]["Size"] = UDim2.new(0.19463, 0, 1.03943, 0);
+XSOLITOXHUB["b0"]["Position"] = UDim2.new(0.09732, 0, 0, 0);
+XSOLITOXHUB["b0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["b0"]["Name"] = [[fhandle]];
+XSOLITOXHUB["b0"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.fhandle.UICorner
+XSOLITOXHUB["b1"] = Instance.new("UICorner", XSOLITOXHUB["b0"]);
+XSOLITOXHUB["b1"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.fhandle.UIStroke
+XSOLITOXHUB["b2"] = Instance.new("UIStroke", XSOLITOXHUB["b0"]);
+XSOLITOXHUB["b2"]["Transparency"] = 0.58;
+XSOLITOXHUB["b2"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.fhandle.hdl
+XSOLITOXHUB["b3"] = Instance.new("ImageButton", XSOLITOXHUB["b0"]);
+XSOLITOXHUB["b3"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["b3"]["ImageTransparency"] = 1;
+XSOLITOXHUB["b3"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+XSOLITOXHUB["b3"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+XSOLITOXHUB["b3"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+XSOLITOXHUB["b3"]["Name"] = [[hdl]];
+XSOLITOXHUB["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.toggle.fhandle.hdl.UICorner
+XSOLITOXHUB["b4"] = Instance.new("UICorner", XSOLITOXHUB["b3"]);
+XSOLITOXHUB["b4"]["CornerRadius"] = UDim.new(0.4, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.label
+XSOLITOXHUB["b5"] = Instance.new("TextLabel", XSOLITOXHUB["97"]);
+XSOLITOXHUB["b5"]["TextWrapped"] = true;
+XSOLITOXHUB["b5"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["b5"]["TextScaled"] = true;
+XSOLITOXHUB["b5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["b5"]["TextSize"] = 14;
+XSOLITOXHUB["b5"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["b5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["b5"]["BackgroundTransparency"] = 0.6;
+XSOLITOXHUB["b5"]["RichText"] = true;
+XSOLITOXHUB["b5"]["Size"] = UDim2.new(1, 0, 0.07568, 0);
+XSOLITOXHUB["b5"]["Visible"] = false;
+XSOLITOXHUB["b5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["b5"]["Text"] = [[Label sample]];
+XSOLITOXHUB["b5"]["Name"] = [[label]];
+XSOLITOXHUB["b5"]["Position"] = UDim2.new(0, 0, 0.71983, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.label.UIStroke
+XSOLITOXHUB["b6"] = Instance.new("UIStroke", XSOLITOXHUB["b5"]);
+XSOLITOXHUB["b6"]["Transparency"] = 0.61;
+XSOLITOXHUB["b6"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.label.UICorner
+XSOLITOXHUB["b7"] = Instance.new("UICorner", XSOLITOXHUB["b5"]);
+
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider
+XSOLITOXHUB["b8"] = Instance.new("Frame", XSOLITOXHUB["97"]);
+XSOLITOXHUB["b8"]["Visible"] = false;
+XSOLITOXHUB["b8"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["b8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["b8"]["Size"] = UDim2.new(1, 0, 0.16, 0);
+XSOLITOXHUB["b8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["b8"]["Name"] = [[slider]];
+XSOLITOXHUB["b8"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.UIStroke
+XSOLITOXHUB["b9"] = Instance.new("UIStroke", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["b9"]["Transparency"] = 0.58;
+XSOLITOXHUB["b9"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.ImageLabel
+XSOLITOXHUB["ba"] = Instance.new("ImageLabel", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["ba"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["ba"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["ba"]["ScaleType"] = Enum.ScaleType.Crop;
+XSOLITOXHUB["ba"]["Image"] = [[http://www.roblox.com/asset/?id=6034910907]];
+XSOLITOXHUB["ba"]["Size"] = UDim2.new(0.08725, 0, 1, 0);
+XSOLITOXHUB["ba"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["ba"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.ImageLabel.UICorner
+XSOLITOXHUB["bb"] = Instance.new("UICorner", XSOLITOXHUB["ba"]);
+XSOLITOXHUB["bb"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.UIListLayout
+XSOLITOXHUB["bc"] = Instance.new("UIListLayout", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["bc"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["bc"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["bc"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.TextButton
+XSOLITOXHUB["bd"] = Instance.new("TextButton", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["bd"]["TextWrapped"] = true;
+XSOLITOXHUB["bd"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["bd"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["bd"]["TextSize"] = 14;
+XSOLITOXHUB["bd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["bd"]["TextScaled"] = true;
+XSOLITOXHUB["bd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["bd"]["RichText"] = true;
+XSOLITOXHUB["bd"]["Size"] = UDim2.new(0.26174, 0, 1, 0);
+XSOLITOXHUB["bd"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["bd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["bd"]["Text"] = [[sample toggle]];
+XSOLITOXHUB["bd"]["Position"] = UDim2.new(0.09732, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.num
+XSOLITOXHUB["be"] = Instance.new("TextBox", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["be"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["be"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["be"]["TextWrapped"] = true;
+XSOLITOXHUB["be"]["TextSize"] = 14;
+XSOLITOXHUB["be"]["Name"] = [[num]];
+XSOLITOXHUB["be"]["TextScaled"] = true;
+XSOLITOXHUB["be"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["be"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["be"]["Size"] = UDim2.new(0.09396, 0, 0.99786, 0);
+XSOLITOXHUB["be"]["Position"] = UDim2.new(0.36913, 0, 0, 0);
+XSOLITOXHUB["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["be"]["Text"] = [[0.1]];
+XSOLITOXHUB["be"]["BackgroundTransparency"] = 0.3;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.num.UICorner
+XSOLITOXHUB["bf"] = Instance.new("UICorner", XSOLITOXHUB["be"]);
+XSOLITOXHUB["bf"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.num.UIStroke
+XSOLITOXHUB["c0"] = Instance.new("UIStroke", XSOLITOXHUB["be"]);
+XSOLITOXHUB["c0"]["Transparency"] = 0.28;
+XSOLITOXHUB["c0"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+XSOLITOXHUB["c0"]["Thickness"] = 2;
+XSOLITOXHUB["c0"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.UICorner
+XSOLITOXHUB["c1"] = Instance.new("UICorner", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["c1"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.Frame
+XSOLITOXHUB["c2"] = Instance.new("Frame", XSOLITOXHUB["b8"]);
+XSOLITOXHUB["c2"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["c2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c2"]["Size"] = UDim2.new(0.52685, 0, 0.99786, 0);
+XSOLITOXHUB["c2"]["Position"] = UDim2.new(0.47315, 0, 0, 0);
+XSOLITOXHUB["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["c2"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.Frame.sliderhandle
+XSOLITOXHUB["c3"] = Instance.new("Frame", XSOLITOXHUB["c2"]);
+XSOLITOXHUB["c3"]["ZIndex"] = 3;
+XSOLITOXHUB["c3"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c3"]["Size"] = UDim2.new(0.7624, 0, 0.20894, 0);
+XSOLITOXHUB["c3"]["Position"] = UDim2.new(0.0828, 0, 0.41606, 0);
+XSOLITOXHUB["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["c3"]["Name"] = [[sliderhandle]];
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.Frame.sliderhandle.UICorner
+XSOLITOXHUB["c4"] = Instance.new("UICorner", XSOLITOXHUB["c3"]);
+XSOLITOXHUB["c4"]["CornerRadius"] = UDim.new(0.7, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.Frame.sliderhandle.drag
+XSOLITOXHUB["c5"] = Instance.new("ImageButton", XSOLITOXHUB["c3"]);
+XSOLITOXHUB["c5"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["c5"]["ImageTransparency"] = 1;
+XSOLITOXHUB["c5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c5"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+XSOLITOXHUB["c5"]["Size"] = UDim2.new(0.14925, 0, 4, 0);
+XSOLITOXHUB["c5"]["Name"] = [[drag]];
+XSOLITOXHUB["c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["c5"]["Position"] = UDim2.new(0, 0, -1.5, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.slider.Frame.sliderhandle.drag.UICorner
+XSOLITOXHUB["c6"] = Instance.new("UICorner", XSOLITOXHUB["c5"]);
+XSOLITOXHUB["c6"]["CornerRadius"] = UDim.new(0.2, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown
+XSOLITOXHUB["c7"] = Instance.new("Frame", XSOLITOXHUB["97"]);
+XSOLITOXHUB["c7"]["Visible"] = false;
+XSOLITOXHUB["c7"]["ZIndex"] = 23;
+XSOLITOXHUB["c7"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c7"]["Size"] = UDim2.new(1, 0, 0.16, 0);
+XSOLITOXHUB["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["c7"]["Name"] = [[dropdown]];
+XSOLITOXHUB["c7"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.UIStroke
+XSOLITOXHUB["c8"] = Instance.new("UIStroke", XSOLITOXHUB["c7"]);
+XSOLITOXHUB["c8"]["Transparency"] = 0.58;
+XSOLITOXHUB["c8"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.ImageLabel
+XSOLITOXHUB["c9"] = Instance.new("ImageLabel", XSOLITOXHUB["c7"]);
+XSOLITOXHUB["c9"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["c9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["c9"]["ScaleType"] = Enum.ScaleType.Crop;
+XSOLITOXHUB["c9"]["Image"] = [[http://www.roblox.com/asset/?id=6031091004]];
+XSOLITOXHUB["c9"]["Size"] = UDim2.new(0.08725, 0, 1, 0);
+XSOLITOXHUB["c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["c9"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.ImageLabel.UICorner
+XSOLITOXHUB["ca"] = Instance.new("UICorner", XSOLITOXHUB["c9"]);
+XSOLITOXHUB["ca"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.UIListLayout
+XSOLITOXHUB["cb"] = Instance.new("UIListLayout", XSOLITOXHUB["c7"]);
+XSOLITOXHUB["cb"]["Padding"] = UDim.new(0, 3);
+XSOLITOXHUB["cb"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["cb"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.TextButton
+XSOLITOXHUB["cc"] = Instance.new("TextButton", XSOLITOXHUB["c7"]);
+XSOLITOXHUB["cc"]["TextWrapped"] = true;
+XSOLITOXHUB["cc"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["cc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["cc"]["TextSize"] = 14;
+XSOLITOXHUB["cc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["cc"]["TextScaled"] = true;
+XSOLITOXHUB["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["cc"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["cc"]["RichText"] = true;
+XSOLITOXHUB["cc"]["Size"] = UDim2.new(0.36577, 0, 1, 0);
+XSOLITOXHUB["cc"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["cc"]["Text"] = [[sample dropdown]];
+XSOLITOXHUB["cc"]["Position"] = UDim2.new(0.09732, 0, -0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle
+XSOLITOXHUB["cd"] = Instance.new("TextButton", XSOLITOXHUB["c7"]);
+XSOLITOXHUB["cd"]["TextWrapped"] = true;
+XSOLITOXHUB["cd"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["cd"]["TextSize"] = 14;
+XSOLITOXHUB["cd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["cd"]["TextScaled"] = true;
+XSOLITOXHUB["cd"]["BackgroundColor3"] = Color3.fromRGB(46, 46, 46);
+XSOLITOXHUB["cd"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["cd"]["ZIndex"] = 23;
+XSOLITOXHUB["cd"]["Size"] = UDim2.new(0.52685, 0, 0.99786, 0);
+XSOLITOXHUB["cd"]["BackgroundTransparency"] = 0.75;
+XSOLITOXHUB["cd"]["Name"] = [[drophandle]];
+XSOLITOXHUB["cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["cd"]["Text"] = [[show]];
+XSOLITOXHUB["cd"]["Position"] = UDim2.new(0.47315, 0, 0, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.UICorner
+XSOLITOXHUB["ce"] = Instance.new("UICorner", XSOLITOXHUB["cd"]);
+XSOLITOXHUB["ce"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.UIStroke
+XSOLITOXHUB["cf"] = Instance.new("UIStroke", XSOLITOXHUB["cd"]);
+XSOLITOXHUB["cf"]["Transparency"] = 0.36;
+XSOLITOXHUB["cf"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+XSOLITOXHUB["cf"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.Frame
+XSOLITOXHUB["d0"] = Instance.new("Frame", XSOLITOXHUB["cd"]);
+XSOLITOXHUB["d0"]["Visible"] = false;
+XSOLITOXHUB["d0"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["d0"]["Size"] = UDim2.new(1, 0, 1.08333, 0);
+XSOLITOXHUB["d0"]["Position"] = UDim2.new(0, 0, 1, 0);
+XSOLITOXHUB["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d0"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.Frame.UIListLayout
+XSOLITOXHUB["d1"] = Instance.new("UIListLayout", XSOLITOXHUB["d0"]);
+XSOLITOXHUB["d1"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.Frame.sample
+XSOLITOXHUB["d2"] = Instance.new("TextButton", XSOLITOXHUB["d0"]);
+XSOLITOXHUB["d2"]["TextWrapped"] = true;
+XSOLITOXHUB["d2"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["d2"]["TextSize"] = 14;
+XSOLITOXHUB["d2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["d2"]["TextScaled"] = true;
+XSOLITOXHUB["d2"]["BackgroundColor3"] = Color3.fromRGB(57, 57, 57);
+XSOLITOXHUB["d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["d2"]["RichText"] = true;
+XSOLITOXHUB["d2"]["Size"] = UDim2.new(1, 0, 1, 0);
+XSOLITOXHUB["d2"]["BackgroundTransparency"] = 0.45;
+XSOLITOXHUB["d2"]["Name"] = [[sample]];
+XSOLITOXHUB["d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d2"]["Text"] = [[]];
+XSOLITOXHUB["d2"]["Visible"] = false;
+XSOLITOXHUB["d2"]["ZIndex"] = 4;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.Frame.sample.TextLabel
+XSOLITOXHUB["d3"] = Instance.new("TextLabel", XSOLITOXHUB["d2"]);
+XSOLITOXHUB["d3"]["TextWrapped"] = true;
+XSOLITOXHUB["d3"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["d3"]["TextScaled"] = true;
+XSOLITOXHUB["d3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["d3"]["TextSize"] = 14;
+XSOLITOXHUB["d3"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["d3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["d3"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["d3"]["Size"] = UDim2.new(1, 0, 0.46154, 0);
+XSOLITOXHUB["d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d3"]["Text"] = [[sample]];
+XSOLITOXHUB["d3"]["Position"] = UDim2.new(0, 0, 0.26923, 0);
+XSOLITOXHUB["d3"]["ZIndex"] = 5;
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.Frame.sample.UICorner
+XSOLITOXHUB["d4"] = Instance.new("UICorner", XSOLITOXHUB["d2"]);
+XSOLITOXHUB["d4"]["CornerRadius"] = UDim.new(0.3, 0);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.drophandle.Frame.sample.UIStroke
+XSOLITOXHUB["d5"] = Instance.new("UIStroke", XSOLITOXHUB["d2"]);
+XSOLITOXHUB["d5"]["Transparency"] = 0.36;
+XSOLITOXHUB["d5"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+XSOLITOXHUB["d5"]["Color"] = Color3.fromRGB(181, 181, 181);
+
+
+-- StarterGui.newui.mainmage.main.propperty sample.dropdown.UICorner
+XSOLITOXHUB["d6"] = Instance.new("UICorner", XSOLITOXHUB["c7"]);
+XSOLITOXHUB["d6"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.newui.mainmage.UIAspectRatioConstraint
+XSOLITOXHUB["d7"] = Instance.new("UIAspectRatioConstraint", XSOLITOXHUB["2"]);
+XSOLITOXHUB["d7"]["AspectRatio"] = 1.59341;
+
+
+-- StarterGui.newui.mainmage.shadow
+XSOLITOXHUB["d8"] = Instance.new("ImageLabel", XSOLITOXHUB["2"]);
+XSOLITOXHUB["d8"]["ZIndex"] = -23;
+XSOLITOXHUB["d8"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["d8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["d8"]["ImageTransparency"] = 0.68;
+XSOLITOXHUB["d8"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d8"]["Image"] = [[rbxassetid://76006750120570]];
+XSOLITOXHUB["d8"]["Size"] = UDim2.new(1.27816, 0, 1.35897, 0);
+XSOLITOXHUB["d8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d8"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["d8"]["Name"] = [[shadow]];
+XSOLITOXHUB["d8"]["Position"] = UDim2.new(-0.14023, 0, -0.15751, 0);
+
+
+-- StarterGui.newui.dark
+XSOLITOXHUB["d9"] = Instance.new("Frame", XSOLITOXHUB["1"]);
+XSOLITOXHUB["d9"]["Visible"] = false;
+XSOLITOXHUB["d9"]["ZIndex"] = -1;
+XSOLITOXHUB["d9"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["d9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d9"]["Size"] = UDim2.new(1, 0, 1, 0);
+XSOLITOXHUB["d9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["d9"]["Name"] = [[dark]];
+XSOLITOXHUB["d9"]["BackgroundTransparency"] = 0.7;
+
+
+-- StarterGui.newui.colorvalue
+XSOLITOXHUB["da"] = Instance.new("Color3Value", XSOLITOXHUB["1"]);
+XSOLITOXHUB["da"]["Name"] = [[colorvalue]];
+XSOLITOXHUB["da"]["Value"] = Color3.fromRGB(21, 6, 176);
+
+
+-- StarterGui.newui.click
+XSOLITOXHUB["db"] = Instance.new("Sound", XSOLITOXHUB["1"]);
+XSOLITOXHUB["db"]["Name"] = [[click]];
+XSOLITOXHUB["db"]["SoundId"] = [[rbxassetid://17582213219]];
+
+
+-- StarterGui.newui.clicking
+XSOLITOXHUB["dc"] = Instance.new("Sound", XSOLITOXHUB["1"]);
+XSOLITOXHUB["dc"]["Name"] = [[clicking]];
+XSOLITOXHUB["dc"]["SoundId"] = [[rbxassetid://4499400560]];
+
+
+-- StarterGui.newui.icon
+XSOLITOXHUB["dd"] = Instance.new("Frame", XSOLITOXHUB["1"]);
+XSOLITOXHUB["dd"]["Visible"] = false;
+XSOLITOXHUB["dd"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["dd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["dd"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["dd"]["Size"] = UDim2.new(0.05362, 0, 0.0874, 0);
+XSOLITOXHUB["dd"]["Position"] = UDim2.new(0.12469, 0, 0.18293, 0);
+XSOLITOXHUB["dd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["dd"]["Name"] = [[icon]];
+XSOLITOXHUB["dd"]["BackgroundTransparency"] = 0.75;
+
+
+-- StarterGui.newui.icon.UICorner
+XSOLITOXHUB["de"] = Instance.new("UICorner", XSOLITOXHUB["dd"]);
+XSOLITOXHUB["de"]["CornerRadius"] = UDim.new(0.5, 0);
+
+
+-- StarterGui.newui.icon.button
+XSOLITOXHUB["df"] = Instance.new("ImageButton", XSOLITOXHUB["dd"]);
+XSOLITOXHUB["df"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["df"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["df"]["ImageTransparency"] = 1;
+XSOLITOXHUB["df"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["df"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["df"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+XSOLITOXHUB["df"]["Size"] = UDim2.new(0.72093, 0, 0.72093, 0);
+XSOLITOXHUB["df"]["BackgroundTransparency"] = 0.7;
+XSOLITOXHUB["df"]["Name"] = [[button]];
+XSOLITOXHUB["df"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["df"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- StarterGui.newui.icon.button.UICorner
+XSOLITOXHUB["e0"] = Instance.new("UICorner", XSOLITOXHUB["df"]);
+XSOLITOXHUB["e0"]["CornerRadius"] = UDim.new(1, 0);
+
+
+-- StarterGui.newui.icon.UIAspectRatioConstraint
+XSOLITOXHUB["e1"] = Instance.new("UIAspectRatioConstraint", XSOLITOXHUB["dd"]);
+
+
+
+-- StarterGui.newui.icon.UIStroke
+XSOLITOXHUB["e2"] = Instance.new("UIStroke", XSOLITOXHUB["dd"]);
+XSOLITOXHUB["e2"]["Enabled"] = false;
+XSOLITOXHUB["e2"]["Transparency"] = 0.19;
+XSOLITOXHUB["e2"]["Thickness"] = 0.8;
+XSOLITOXHUB["e2"]["Color"] = Color3.fromRGB(214, 214, 214);
+
+
+-- StarterGui.newui.notif
+XSOLITOXHUB["e3"] = Instance.new("ImageLabel", XSOLITOXHUB["1"]);
+XSOLITOXHUB["e3"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["e3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["e3"]["ImageTransparency"] = 0.36;
+XSOLITOXHUB["e3"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["e3"]["Image"] = [[rbxassetid://72978449934552]];
+XSOLITOXHUB["e3"]["Size"] = UDim2.new(0.512, 0, 0.118, 0);
+XSOLITOXHUB["e3"]["Visible"] = false;
+XSOLITOXHUB["e3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["e3"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["e3"]["Name"] = [[notif]];
+XSOLITOXHUB["e3"]["Position"] = UDim2.new(0.5, 0, 0.15, 0);
+
+
+-- StarterGui.newui.notif.UIAspectRatioConstraint
+XSOLITOXHUB["e4"] = Instance.new("UIAspectRatioConstraint", XSOLITOXHUB["e3"]);
+XSOLITOXHUB["e4"]["AspectRatio"] = 7.08621;
+
+
+-- StarterGui.newui.notif.UICorner
+XSOLITOXHUB["e5"] = Instance.new("UICorner", XSOLITOXHUB["e3"]);
+XSOLITOXHUB["e5"]["CornerRadius"] = UDim.new(0.1, 0);
+
+
+-- StarterGui.newui.notif.UIListLayout
+XSOLITOXHUB["e6"] = Instance.new("UIListLayout", XSOLITOXHUB["e3"]);
+XSOLITOXHUB["e6"]["Padding"] = UDim.new(0.01, 0);
+XSOLITOXHUB["e6"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+XSOLITOXHUB["e6"]["FillDirection"] = Enum.FillDirection.Horizontal;
+
+
+-- StarterGui.newui.notif.image
+XSOLITOXHUB["e7"] = Instance.new("ImageLabel", XSOLITOXHUB["e3"]);
+XSOLITOXHUB["e7"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["e7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["e7"]["ScaleType"] = Enum.ScaleType.Fit;
+XSOLITOXHUB["e7"]["Image"] = [[http://www.roblox.com/asset/?id=6034308946]];
+XSOLITOXHUB["e7"]["Size"] = UDim2.new(0.14112, 0, 1, 0);
+XSOLITOXHUB["e7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["e7"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["e7"]["Name"] = [[image]];
+
+
+-- StarterGui.newui.notif.title
+XSOLITOXHUB["e8"] = Instance.new("TextLabel", XSOLITOXHUB["e3"]);
+XSOLITOXHUB["e8"]["TextWrapped"] = true;
+XSOLITOXHUB["e8"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["e8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+XSOLITOXHUB["e8"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+XSOLITOXHUB["e8"]["TextScaled"] = true;
+XSOLITOXHUB["e8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["e8"]["TextSize"] = 21;
+XSOLITOXHUB["e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["e8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["e8"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["e8"]["RichText"] = true;
+XSOLITOXHUB["e8"]["Size"] = UDim2.new(0.84672, 0, 1, 0);
+XSOLITOXHUB["e8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["e8"]["Text"] = [[sample]];
+XSOLITOXHUB["e8"]["Name"] = [[title]];
+XSOLITOXHUB["e8"]["Position"] = UDim2.new(0.15112, 0, 0, 0);
+
+
+-- StarterGui.newui.notif.title.UITextSizeConstraint
+XSOLITOXHUB["e9"] = Instance.new("UITextSizeConstraint", XSOLITOXHUB["e8"]);
+XSOLITOXHUB["e9"]["MaxTextSize"] = 21;
+
+
+-- StarterGui.newui.intro
+XSOLITOXHUB["ea"] = Instance.new("ImageLabel", XSOLITOXHUB["1"]);
+XSOLITOXHUB["ea"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["ea"]["BackgroundColor3"] = Color3.fromRGB(146, 146, 146);
+XSOLITOXHUB["ea"]["ImageTransparency"] = 0.4;
+XSOLITOXHUB["ea"]["ImageColor3"] = Color3.fromRGB(157, 157, 157);
+XSOLITOXHUB["ea"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["ea"]["Image"] = [[rbxassetid://72978449934552]];
+XSOLITOXHUB["ea"]["Size"] = UDim2.new(0.53903, 0, 0.55488, 0);
+XSOLITOXHUB["ea"]["Visible"] = false;
+XSOLITOXHUB["ea"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["ea"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["ea"]["Name"] = [[intro]];
+XSOLITOXHUB["ea"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+-- StarterGui.newui.intro.UIAspectRatioConstraint
+XSOLITOXHUB["eb"] = Instance.new("UIAspectRatioConstraint", XSOLITOXHUB["ea"]);
+XSOLITOXHUB["eb"]["AspectRatio"] = 1.59341;
+
+
+-- StarterGui.newui.intro.main
+XSOLITOXHUB["ec"] = Instance.new("Frame", XSOLITOXHUB["ea"]);
+XSOLITOXHUB["ec"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["ec"]["BackgroundColor3"] = Color3.fromRGB(203, 203, 203);
+XSOLITOXHUB["ec"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["ec"]["Size"] = UDim2.new(0.94943, 0, 0.92674, 0);
+XSOLITOXHUB["ec"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+XSOLITOXHUB["ec"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["ec"]["Name"] = [[main]];
+XSOLITOXHUB["ec"]["BackgroundTransparency"] = 0.9;
+
+
+-- StarterGui.newui.intro.main.TextLabel
+XSOLITOXHUB["ed"] = Instance.new("TextLabel", XSOLITOXHUB["ec"]);
+XSOLITOXHUB["ed"]["TextWrapped"] = true;
+XSOLITOXHUB["ed"]["BorderSizePixel"] = 0;
+XSOLITOXHUB["ed"]["TextScaled"] = true;
+XSOLITOXHUB["ed"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["ed"]["TextSize"] = 14;
+XSOLITOXHUB["ed"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+XSOLITOXHUB["ed"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+XSOLITOXHUB["ed"]["BackgroundTransparency"] = 1;
+XSOLITOXHUB["ed"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+XSOLITOXHUB["ed"]["Size"] = UDim2.new(0.82851, 0, 0.51329, 0);
+XSOLITOXHUB["ed"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+XSOLITOXHUB["ed"]["Text"] = [[welcome to pshade ultimate]];
+XSOLITOXHUB["ed"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+
+
+
+return XSOLITOXHUB["1"], require;
